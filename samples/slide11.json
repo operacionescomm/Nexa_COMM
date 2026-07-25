@@ -1,0 +1,24 @@
+{
+  "titulo": "NEXA CERRO LINDO - FEBRERO 2026 - ATENCIONES POR TURNO Y EVOLUCIÓN MENSUAL",
+  "periodo": "Febrero 2026",
+  "meses": [
+    {
+      "mes": "Dic-25",
+      "dia": 112,
+      "noche": 106,
+      "total": 218
+    },
+    {
+      "mes": "Ene-26",
+      "dia": 137,
+      "noche": 94,
+      "total": 231
+    },
+    {
+      "mes": "Feb-26",
+      "dia": 201,
+      "noche": 151,
+      "total": 352
+    }
+  ]
+}

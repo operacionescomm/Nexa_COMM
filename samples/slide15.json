@@ -1,0 +1,43 @@
+{
+  "titulo": "NEXA CERRO LINDO - FEBRERO 2026 - TOP INCIDENTES POR CAUSA RAÍZ",
+  "periodo": "Febrero 2026",
+  "totalIncidentes": 136,
+  "totalTiempoHoras": 364,
+  "items": [
+    [
+      "Daño de cable en trabajos de rehabilitación (leaky feeder)",
+      66,
+      171
+    ],
+    [
+      "Falla de equipos de comunicación (amplificador, SPL, SP2, SP3)",
+      40,
+      110
+    ],
+    [
+      "Daño de cable eléctrico de fuente",
+      19,
+      52
+    ],
+    [
+      "Daño de cable de fibra óptica",
+      6,
+      16
+    ],
+    [
+      "Daño de cable por equipo (Jumbo, Scoop, Volquete)",
+      3,
+      9
+    ],
+    [
+      "Cable roto por vehículo (leaky feeder)",
+      1,
+      3
+    ],
+    [
+      "Conectores en mal estado (leaky feeder)",
+      1,
+      3
+    ]
+  ]
+}

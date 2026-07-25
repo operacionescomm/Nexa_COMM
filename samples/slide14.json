@@ -1,0 +1,48 @@
+{
+  "titulo": "NEXA CERRO LINDO - FEBRERO 2026 - TOP REQUERIMIENTOS POR CAUSA RAÍZ",
+  "periodo": "Febrero 2026",
+  "totalRequerimientos": 214,
+  "totalTiempoHoras": 565,
+  "items": [
+    [
+      "Instalación Nueva (leaky feeder)",
+      74,
+      194
+    ],
+    [
+      "Reubicación de cable (leaky feeder)",
+      62,
+      163
+    ],
+    [
+      "Mantenimiento Programado del sistema (leaky feeder)",
+      39,
+      112
+    ],
+    [
+      "Estandarización de Cable (leaky feeder)",
+      23,
+      56
+    ],
+    [
+      "Instalación Nueva (energía)",
+      7,
+      17
+    ],
+    [
+      "Mantenimiento Programado (cámaras)",
+      4,
+      8
+    ],
+    [
+      "Instalación Nueva (fibra óptica)",
+      3,
+      9
+    ],
+    [
+      "Mantenimiento Programado (gabinete)",
+      2,
+      6
+    ]
+  ]
+}

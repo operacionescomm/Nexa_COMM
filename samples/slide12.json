@@ -1,0 +1,13 @@
+{
+  "titulo": "NEXA CERRO LINDO - FEBRERO 2026 - INCIDENTES VS REQUERIMIENTOS",
+  "periodo": "Febrero 2026",
+  "incidentes": 136,
+  "requerimientos": 216,
+  "totalAtenciones": 352,
+  "tabla": {
+    "up": "CERRO LINDO",
+    "incidentes": 136,
+    "requerimientos": 216,
+    "total": 352
+  }
+}

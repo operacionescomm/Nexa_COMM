@@ -1,0 +1,21 @@
+{
+  "titulo": "NEXA CERRO LINDO - FEBRERO 2026 - EVOLUCIÓN DE REQUERIMIENTOS E INCIDENTES",
+  "periodo": "Febrero 2026",
+  "meses": [
+    {
+      "mes": "Dic-25",
+      "incidentes": 103,
+      "requerimientos": 115
+    },
+    {
+      "mes": "Ene-26",
+      "incidentes": 108,
+      "requerimientos": 130
+    },
+    {
+      "mes": "Feb-26",
+      "incidentes": 136,
+      "requerimientos": 216
+    }
+  ]
+}

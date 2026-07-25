@@ -1,0 +1,170 @@
+{
+  "titulo": "ATENCIONES EN LA OPERACIÓN NEXA CERRO LINDO - FEBRERO 2026",
+  "periodo": "Febrero 2026",
+  "logoText": "COMM",
+  "diasPeriodo": 32,
+  "totalAtenciones": 352,
+  "totalHoras": 933,
+  "dias": [
+    {
+      "fecha": "21/01/2026",
+      "atenciones": 15,
+      "horas": 43
+    },
+    {
+      "fecha": "22/01/2026",
+      "atenciones": 18,
+      "horas": 54
+    },
+    {
+      "fecha": "23/01/2026",
+      "atenciones": 14,
+      "horas": 42
+    },
+    {
+      "fecha": "24/01/2026",
+      "atenciones": 13,
+      "horas": 39
+    },
+    {
+      "fecha": "25/01/2026",
+      "atenciones": 12,
+      "horas": 36
+    },
+    {
+      "fecha": "26/01/2026",
+      "atenciones": 10,
+      "horas": 28
+    },
+    {
+      "fecha": "27/01/2026",
+      "atenciones": 12,
+      "horas": 28
+    },
+    {
+      "fecha": "28/01/2026",
+      "atenciones": 9,
+      "horas": 21
+    },
+    {
+      "fecha": "29/01/2026",
+      "atenciones": 9,
+      "horas": 21
+    },
+    {
+      "fecha": "30/01/2026",
+      "atenciones": 11,
+      "horas": 33
+    },
+    {
+      "fecha": "31/01/2026",
+      "atenciones": 10,
+      "horas": 30
+    },
+    {
+      "fecha": "01/02/2026",
+      "atenciones": 7,
+      "horas": 21
+    },
+    {
+      "fecha": "02/02/2026",
+      "atenciones": 13,
+      "horas": 39
+    },
+    {
+      "fecha": "03/02/2026",
+      "atenciones": 13,
+      "horas": 39
+    },
+    {
+      "fecha": "04/02/2026",
+      "atenciones": 9,
+      "horas": 25
+    },
+    {
+      "fecha": "05/02/2026",
+      "atenciones": 8,
+      "horas": 18
+    },
+    {
+      "fecha": "06/02/2026",
+      "atenciones": 14,
+      "horas": 40
+    },
+    {
+      "fecha": "07/02/2026",
+      "atenciones": 13,
+      "horas": 29
+    },
+    {
+      "fecha": "08/02/2026",
+      "atenciones": 13,
+      "horas": 31
+    },
+    {
+      "fecha": "09/02/2026",
+      "atenciones": 13,
+      "horas": 37
+    },
+    {
+      "fecha": "10/02/2026",
+      "atenciones": 10,
+      "horas": 24
+    },
+    {
+      "fecha": "11/02/2026",
+      "atenciones": 9,
+      "horas": 21
+    },
+    {
+      "fecha": "12/02/2026",
+      "atenciones": 9,
+      "horas": 23
+    },
+    {
+      "fecha": "13/02/2026",
+      "atenciones": 9,
+      "horas": 22
+    },
+    {
+      "fecha": "14/02/2026",
+      "atenciones": 15,
+      "horas": 33
+    },
+    {
+      "fecha": "15/02/2026",
+      "atenciones": 13,
+      "horas": 33
+    },
+    {
+      "fecha": "16/02/2026",
+      "atenciones": 11,
+      "horas": 27
+    },
+    {
+      "fecha": "17/02/2026",
+      "atenciones": 10,
+      "horas": 22
+    },
+    {
+      "fecha": "18/02/2026",
+      "atenciones": 10,
+      "horas": 22
+    },
+    {
+      "fecha": "19/02/2026",
+      "atenciones": 12,
+      "horas": 28
+    },
+    {
+      "fecha": "20/02/2026",
+      "atenciones": 3,
+      "horas": 9
+    },
+    {
+      "fecha": "21/02/2026",
+      "atenciones": 5,
+      "horas": 15
+    }
+  ]
+}
