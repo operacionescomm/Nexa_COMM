@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 app.get('/health', (req, res) => {
   res.json({
     ok: true,
-    message: 'Motor visual NEXA Cerro Lindo activo'
+    message: 'Motor visual Cerro Lindo activo'
   });
 });
 
@@ -93,55 +93,206 @@ function registerSlide(slideNumber, getSampleData, normalizeData) {
 
 function getSampleSlide10() {
   return normalizeSlide10Data({
-    titulo: 'ATENCIONES EN LA OPERACIÓN NEXA CERRO LINDO - FEBRERO 2026',
-    periodo: 'Febrero 2026',
-    logoText: 'COMM',
-    diasPeriodo: 32,
-    totalAtenciones: 352,
-    totalHoras: 933,
-    promedioAtencionesDia: '11.0',
-    promedioHorasDia: '29.2',
-    horasPorAtencion: '2.65',
-    diasConAtencion: 32,
-
-    dias: [
-      { fecha: '21/01/2026', dia: '21', atenciones: 15, horas: 43 },
-      { fecha: '22/01/2026', dia: '22', atenciones: 18, horas: 54 },
-      { fecha: '23/01/2026', dia: '23', atenciones: 14, horas: 42 },
-      { fecha: '24/01/2026', dia: '24', atenciones: 13, horas: 39 },
-      { fecha: '25/01/2026', dia: '25', atenciones: 12, horas: 36 },
-      { fecha: '26/01/2026', dia: '26', atenciones: 10, horas: 28 },
-      { fecha: '27/01/2026', dia: '27', atenciones: 12, horas: 28 },
-      { fecha: '28/01/2026', dia: '28', atenciones: 9, horas: 21 },
-      { fecha: '29/01/2026', dia: '29', atenciones: 9, horas: 21 },
-      { fecha: '30/01/2026', dia: '30', atenciones: 11, horas: 33 },
-      { fecha: '31/01/2026', dia: '31', atenciones: 10, horas: 30 },
-      { fecha: '01/02/2026', dia: '01', atenciones: 7, horas: 21 },
-      { fecha: '02/02/2026', dia: '02', atenciones: 13, horas: 39 },
-      { fecha: '03/02/2026', dia: '03', atenciones: 13, horas: 39 },
-      { fecha: '04/02/2026', dia: '04', atenciones: 9, horas: 25 },
-      { fecha: '05/02/2026', dia: '05', atenciones: 8, horas: 18 },
-      { fecha: '06/02/2026', dia: '06', atenciones: 14, horas: 40 },
-      { fecha: '07/02/2026', dia: '07', atenciones: 13, horas: 29 },
-      { fecha: '08/02/2026', dia: '08', atenciones: 13, horas: 31 },
-      { fecha: '09/02/2026', dia: '09', atenciones: 13, horas: 37 },
-      { fecha: '10/02/2026', dia: '10', atenciones: 10, horas: 24 },
-      { fecha: '11/02/2026', dia: '11', atenciones: 9, horas: 21 },
-      { fecha: '12/02/2026', dia: '12', atenciones: 9, horas: 23 },
-      { fecha: '13/02/2026', dia: '13', atenciones: 9, horas: 22 },
-      { fecha: '14/02/2026', dia: '14', atenciones: 15, horas: 33 },
-      { fecha: '15/02/2026', dia: '15', atenciones: 13, horas: 33 },
-      { fecha: '16/02/2026', dia: '16', atenciones: 11, horas: 27 },
-      { fecha: '17/02/2026', dia: '17', atenciones: 10, horas: 22 },
-      { fecha: '18/02/2026', dia: '18', atenciones: 10, horas: 22 },
-      { fecha: '19/02/2026', dia: '19', atenciones: 12, horas: 28 },
-      { fecha: '20/02/2026', dia: '20', atenciones: 3, horas: 9 },
-      { fecha: '21/02/2026', dia: '21', atenciones: 5, horas: 15 }
-    ],
-
-    insight:
-      'La distribución diaria permite identificar la carga operativa del periodo y sus principales picos de atención.'
-  });
+  "titulo": "CERRO LINDO - ABRIL 2026 - ATENCIONES EN LA OPERACIÓN",
+  "periodo": "Abril 2026",
+  "logoText": "COMM",
+  "diasPeriodo": 31,
+  "totalAtenciones": 305,
+  "totalHoras": 912,
+  "promedioAtencionesDia": "9.8",
+  "promedioHorasDia": "29.4",
+  "horasPorAtencion": "2.99",
+  "diasConAtencion": 31,
+  "dias": [
+    {
+      "fecha": "22/03/2026",
+      "dia": "22",
+      "atenciones": 11,
+      "horas": 33
+    },
+    {
+      "fecha": "23/03/2026",
+      "dia": "23",
+      "atenciones": 14,
+      "horas": 42
+    },
+    {
+      "fecha": "24/03/2026",
+      "dia": "24",
+      "atenciones": 8,
+      "horas": 24
+    },
+    {
+      "fecha": "25/03/2026",
+      "dia": "25",
+      "atenciones": 14,
+      "horas": 42
+    },
+    {
+      "fecha": "26/03/2026",
+      "dia": "26",
+      "atenciones": 12,
+      "horas": 36
+    },
+    {
+      "fecha": "27/03/2026",
+      "dia": "27",
+      "atenciones": 14,
+      "horas": 42
+    },
+    {
+      "fecha": "28/03/2026",
+      "dia": "28",
+      "atenciones": 9,
+      "horas": 27
+    },
+    {
+      "fecha": "29/03/2026",
+      "dia": "29",
+      "atenciones": 10,
+      "horas": 30
+    },
+    {
+      "fecha": "30/03/2026",
+      "dia": "30",
+      "atenciones": 11,
+      "horas": 33
+    },
+    {
+      "fecha": "31/03/2026",
+      "dia": "31",
+      "atenciones": 8,
+      "horas": 24
+    },
+    {
+      "fecha": "01/04/2026",
+      "dia": "01",
+      "atenciones": 9,
+      "horas": 27
+    },
+    {
+      "fecha": "02/04/2026",
+      "dia": "02",
+      "atenciones": 12,
+      "horas": 36
+    },
+    {
+      "fecha": "03/04/2026",
+      "dia": "03",
+      "atenciones": 14,
+      "horas": 42
+    },
+    {
+      "fecha": "04/04/2026",
+      "dia": "04",
+      "atenciones": 9,
+      "horas": 27
+    },
+    {
+      "fecha": "05/04/2026",
+      "dia": "05",
+      "atenciones": 9,
+      "horas": 27
+    },
+    {
+      "fecha": "06/04/2026",
+      "dia": "06",
+      "atenciones": 11,
+      "horas": 33
+    },
+    {
+      "fecha": "07/04/2026",
+      "dia": "07",
+      "atenciones": 6,
+      "horas": 18
+    },
+    {
+      "fecha": "08/04/2026",
+      "dia": "08",
+      "atenciones": 5,
+      "horas": 15
+    },
+    {
+      "fecha": "09/04/2026",
+      "dia": "09",
+      "atenciones": 9,
+      "horas": 27
+    },
+    {
+      "fecha": "10/04/2026",
+      "dia": "10",
+      "atenciones": 9,
+      "horas": 27
+    },
+    {
+      "fecha": "11/04/2026",
+      "dia": "11",
+      "atenciones": 7,
+      "horas": 21
+    },
+    {
+      "fecha": "12/04/2026",
+      "dia": "12",
+      "atenciones": 7,
+      "horas": 21
+    },
+    {
+      "fecha": "13/04/2026",
+      "dia": "13",
+      "atenciones": 8,
+      "horas": 24
+    },
+    {
+      "fecha": "14/04/2026",
+      "dia": "14",
+      "atenciones": 12,
+      "horas": 33
+    },
+    {
+      "fecha": "15/04/2026",
+      "dia": "15",
+      "atenciones": 5,
+      "horas": 15
+    },
+    {
+      "fecha": "16/04/2026",
+      "dia": "16",
+      "atenciones": 13,
+      "horas": 39
+    },
+    {
+      "fecha": "17/04/2026",
+      "dia": "17",
+      "atenciones": 11,
+      "horas": 33
+    },
+    {
+      "fecha": "18/04/2026",
+      "dia": "18",
+      "atenciones": 8,
+      "horas": 24
+    },
+    {
+      "fecha": "19/04/2026",
+      "dia": "19",
+      "atenciones": 10,
+      "horas": 30
+    },
+    {
+      "fecha": "20/04/2026",
+      "dia": "20",
+      "atenciones": 12,
+      "horas": 36
+    },
+    {
+      "fecha": "21/04/2026",
+      "dia": "21",
+      "atenciones": 8,
+      "horas": 24
+    }
+  ],
+  "insight": "La distribución diaria permite identificar la carga operativa de abril y los principales picos de atención."
+});
 }
 
 /****************************************************
@@ -150,24 +301,49 @@ function getSampleSlide10() {
 
 function getSampleSlide11() {
   return normalizeSlide11Data({
-    titulo: 'NEXA CERRO LINDO - FEBRERO 2026 - ATENCIONES POR TURNO Y EVOLUCIÓN MENSUAL',
-    periodo: 'Febrero 2026',
-    logoText: 'COMM',
-
-    meses: [
-      { mes: 'Dic-25', dia: 112, noche: 106, total: 218 },
-      { mes: 'Ene-26', dia: 137, noche: 94, total: 231 },
-      { mes: 'Feb-26', dia: 201, noche: 151, total: 352 }
-    ],
-
-    totalAtenciones: 801,
-    totalDiaGlobal: 450,
-    totalNocheGlobal: 351,
-    totalMesActualValue: 352,
-
-    insight:
-      'El turno día concentra la mayor participación de atenciones del periodo acumulado, manteniéndose una carga relevante durante el turno noche.'
-  });
+  "titulo": "CERRO LINDO - DIC 2025 - ABR 2026 - ATENCIONES POR TURNO Y EVOLUCIÓN MENSUAL",
+  "periodo": "DIC 2025 - ABR 2026",
+  "logoText": "COMM",
+  "meses": [
+    {
+      "mes": "Dic-25",
+      "dia": 112,
+      "noche": 106,
+      "total": 218
+    },
+    {
+      "mes": "Ene-26",
+      "dia": 137,
+      "noche": 94,
+      "total": 231
+    },
+    {
+      "mes": "Feb-26",
+      "dia": 201,
+      "noche": 151,
+      "total": 352
+    },
+    {
+      "mes": "Mar-26",
+      "dia": 168,
+      "noche": 114,
+      "total": 282
+    },
+    {
+      "mes": "Abr-26",
+      "dia": 167,
+      "noche": 137,
+      "total": 304
+    }
+  ],
+  "totalAtenciones": 1387,
+  "totalDiaGlobal": 785,
+  "totalNocheGlobal": 602,
+  "totalMesActualValue": 304,
+  "participacionDia": "56.6%",
+  "participacionNoche": "43.4%",
+  "insight": "El turno día concentra la mayor participación de las atenciones acumuladas entre diciembre de 2025 y abril de 2026."
+});
 }
 
 /****************************************************
@@ -176,31 +352,26 @@ function getSampleSlide11() {
 
 function getSampleSlide12() {
   return normalizeSlide12Data({
-    titulo: 'NEXA CERRO LINDO - FEBRERO 2026 - INCIDENTES VS REQUERIMIENTOS',
-    periodo: 'Febrero 2026',
-    logoText: 'COMM',
-
-    totalAtenciones: 352,
-    incidentes: 136,
-    requerimientos: 216,
-    brecha: 80,
-
-    pctIncidentes: '38.64%',
-    pctRequerimientos: '61.36%',
-
-    tabla: {
-      up: 'CERRO LINDO',
-      incidentes: 136,
-      requerimientos: 216,
-      total: 352,
-      pctIncidentes: '38.64%',
-      pctRequerimientos: '61.36%',
-      pctTotal: '100%'
-    },
-
-    insight:
-      'Los requerimientos representan la mayor proporción de atenciones del periodo, por encima de los incidentes reportados.'
-  });
+  "titulo": "CERRO LINDO - ABRIL 2026 - INCIDENTES VS REQUERIMIENTOS",
+  "periodo": "Abril 2026",
+  "logoText": "COMM",
+  "totalAtenciones": 305,
+  "incidentes": 77,
+  "requerimientos": 228,
+  "brecha": 151,
+  "pctIncidentes": "25.25%",
+  "pctRequerimientos": "74.75%",
+  "tabla": {
+    "up": "CERRO LINDO",
+    "incidentes": 77,
+    "requerimientos": 228,
+    "total": 305,
+    "pctIncidentes": "25.25%",
+    "pctRequerimientos": "74.75%",
+    "pctTotal": "100%"
+  },
+  "insight": "Los requerimientos representan la mayor proporción de atenciones de abril, por encima de los incidentes reportados."
+});
 }
 
 /****************************************************
@@ -209,26 +380,54 @@ function getSampleSlide12() {
 
 function getSampleSlide13() {
   return normalizeSlide13Data({
-    titulo: 'NEXA CERRO LINDO - FEBRERO 2026 - EVOLUCIÓN DE REQUERIMIENTOS E INCIDENTES',
-    periodo: 'Febrero 2026',
-    logoText: 'COMM',
-
-    totalRequerimientos: 461,
-    totalIncidentes: 347,
-    totalAtenciones: 808,
-    participacionRequerimientos: '57%',
-    participacionIncidentes: '43%',
-    promedioMensualTotal: '269.3',
-
-    meses: [
-      { mes: 'Dic-25', incidentes: 103, requerimientos: 115 },
-      { mes: 'Ene-26', incidentes: 108, requerimientos: 130 },
-      { mes: 'Feb-26', incidentes: 136, requerimientos: 216 }
-    ],
-
-    insight:
-      'La evolución mensual muestra una mayor participación de requerimientos, con crecimiento del volumen total durante febrero.'
-  });
+  "titulo": "CERRO LINDO - DIC 2025 - JUN 2026 - EVOLUCIÓN DE REQUERIMIENTOS E INCIDENTES",
+  "periodo": "DIC 2025 - JUN 2026",
+  "logoText": "COMM",
+  "totalRequerimientos": 1291,
+  "totalIncidentes": 595,
+  "totalAtenciones": 1886,
+  "participacionRequerimientos": "68.45%",
+  "participacionIncidentes": "31.55%",
+  "promedioMensualTotal": "269.4",
+  "meses": [
+    {
+      "mes": "Dic-25",
+      "incidentes": 103,
+      "requerimientos": 115
+    },
+    {
+      "mes": "Ene-26",
+      "incidentes": 108,
+      "requerimientos": 130
+    },
+    {
+      "mes": "Feb-26",
+      "incidentes": 136,
+      "requerimientos": 216
+    },
+    {
+      "mes": "Mar-26",
+      "incidentes": 67,
+      "requerimientos": 215
+    },
+    {
+      "mes": "Abr-26",
+      "incidentes": 77,
+      "requerimientos": 228
+    },
+    {
+      "mes": "May-26",
+      "incidentes": 45,
+      "requerimientos": 199
+    },
+    {
+      "mes": "Jun-26",
+      "incidentes": 59,
+      "requerimientos": 188
+    }
+  ],
+  "insight": "La evolución de los siete periodos muestra predominio de requerimientos y una reducción del volumen total después del pico registrado en febrero."
+});
 }
 
 /****************************************************
@@ -237,27 +436,65 @@ function getSampleSlide13() {
 
 function getSampleSlide14() {
   return normalizeSlide14Data({
-    titulo: 'NEXA CERRO LINDO - FEBRERO 2026 - TOP REQUERIMIENTOS POR CAUSA RAÍZ',
-    periodo: 'Febrero 2026',
-    logoText: 'COMM',
-
-    totalRequerimientos: 214,
-    totalTiempoHoras: 565,
-
-    items: [
-      { nombre: 'Instalación Nueva (leaky feeder)', cantidad: 74, tiempoHoras: 194 },
-      { nombre: 'Reubicación de cable (leaky feeder)', cantidad: 62, tiempoHoras: 163 },
-      { nombre: 'Mantenimiento Programado del sistema (leaky feeder)', cantidad: 39, tiempoHoras: 112 },
-      { nombre: 'Estandarización de Cable (leaky feeder)', cantidad: 23, tiempoHoras: 56 },
-      { nombre: 'Instalación Nueva (energía)', cantidad: 7, tiempoHoras: 17 },
-      { nombre: 'Mantenimiento Programado (cámaras)', cantidad: 4, tiempoHoras: 8 },
-      { nombre: 'Instalación Nueva (fibra óptica)', cantidad: 3, tiempoHoras: 9 },
-      { nombre: 'Mantenimiento Programado (gabinete)', cantidad: 2, tiempoHoras: 6 }
-    ],
-
-    insight:
-      'La principal causa raíz de los requerimientos corresponde a Instalación Nueva del sistema leaky feeder.'
-  });
+  "titulo": "CERRO LINDO - DIC 2025 - JUN 2026 - REQUERIMIENTOS",
+  "periodo": "DIC 2025 - JUN 2026",
+  "logoText": "COMM",
+  "totalRequerimientos": 1291,
+  "totalTiempoHoras": 3721,
+  "items": [
+    {
+      "nombre": "Mantenimiento Programado del sistema (leaky feeder)",
+      "cantidad": 499,
+      "tiempoHoras": 1472
+    },
+    {
+      "nombre": "Instalación Nueva (leaky feeder)",
+      "cantidad": 320,
+      "tiempoHoras": 912
+    },
+    {
+      "nombre": "Reubicacion de cable (leaky feeder)",
+      "cantidad": 245,
+      "tiempoHoras": 698
+    },
+    {
+      "nombre": "Estandarización de Cable (leaky feeder)",
+      "cantidad": 71,
+      "tiempoHoras": 199
+    },
+    {
+      "nombre": "Instalación Nueva (FIBRA OPTICA)",
+      "cantidad": 50,
+      "tiempoHoras": 150
+    },
+    {
+      "nombre": "INSTALACION NUEVA (ENERGIA)",
+      "cantidad": 31,
+      "tiempoHoras": 84
+    },
+    {
+      "nombre": "Mantenimiento Programado (camaras)",
+      "cantidad": 18,
+      "tiempoHoras": 46
+    },
+    {
+      "nombre": "MANTENIMIENTO PROGRAMADO (GABINETE)",
+      "cantidad": 17,
+      "tiempoHoras": 46
+    },
+    {
+      "nombre": "Instalación Nueva (RAD)",
+      "cantidad": 10,
+      "tiempoHoras": 30
+    },
+    {
+      "nombre": "Instalación Nueva (Fibra Optica)",
+      "cantidad": 8,
+      "tiempoHoras": 24
+    }
+  ],
+  "insight": "La principal causa raíz acumulada corresponde al mantenimiento programado del sistema leaky feeder."
+});
 }
 
 /****************************************************
@@ -266,26 +503,65 @@ function getSampleSlide14() {
 
 function getSampleSlide15() {
   return normalizeSlide15Data({
-    titulo: 'NEXA CERRO LINDO - FEBRERO 2026 - TOP INCIDENTES POR CAUSA RAÍZ',
-    periodo: 'Febrero 2026',
-    logoText: 'COMM',
-
-    totalIncidentes: 136,
-    totalTiempoHoras: 364,
-
-    items: [
-      { nombre: 'Daño de cable en trabajos de rehabilitación (leaky feeder)', cantidad: 66, tiempoHoras: 171 },
-      { nombre: 'Falla de equipos de comunicación (amplificador, SPL, SP2, SP3)', cantidad: 40, tiempoHoras: 110 },
-      { nombre: 'Daño de cable eléctrico de fuente', cantidad: 19, tiempoHoras: 52 },
-      { nombre: 'Daño de cable de fibra óptica', cantidad: 6, tiempoHoras: 16 },
-      { nombre: 'Daño de cable por equipo (Jumbo, Scoop, Volquete)', cantidad: 3, tiempoHoras: 9 },
-      { nombre: 'Cable roto por vehículo (leaky feeder)', cantidad: 1, tiempoHoras: 3 },
-      { nombre: 'Conectores en mal estado (leaky feeder)', cantidad: 1, tiempoHoras: 3 }
-    ],
-
-    insight:
-      'La mayor concentración de incidentes se relaciona con daños del cable leaky feeder durante trabajos de rehabilitación.'
-  });
+  "titulo": "CERRO LINDO - DIC 2025 - JUN 2026 - INCIDENTES",
+  "periodo": "DIC 2025 - JUN 2026",
+  "logoText": "COMM",
+  "totalIncidentes": 595,
+  "totalTiempoHoras": 1674,
+  "items": [
+    {
+      "nombre": "Falla de equipos de comunicación (amplificador, spl, sp2,sp3)",
+      "cantidad": 192,
+      "tiempoHoras": 538
+    },
+    {
+      "nombre": "Daño de cable en trabajos de rehabilitacion(leaky feeder)",
+      "cantidad": 175,
+      "tiempoHoras": 484
+    },
+    {
+      "nombre": "Daño de cable electrico de fuente",
+      "cantidad": 102,
+      "tiempoHoras": 292
+    },
+    {
+      "nombre": "Daño de cable por equipo(Jumbo, Scoop, Volquete)",
+      "cantidad": 78,
+      "tiempoHoras": 231
+    },
+    {
+      "nombre": "Puntos de conexión sulfatados",
+      "cantidad": 16,
+      "tiempoHoras": 40
+    },
+    {
+      "nombre": "Daño de cable de fibra optica",
+      "cantidad": 15,
+      "tiempoHoras": 39
+    },
+    {
+      "nombre": "Daño de cable UTP (Camara)",
+      "cantidad": 7,
+      "tiempoHoras": 20
+    },
+    {
+      "nombre": "Cable Roto por Vehículo (Leaky Feeder)",
+      "cantidad": 4,
+      "tiempoHoras": 12
+    },
+    {
+      "nombre": "Conectores en mal estado (Leaky Feeder)",
+      "cantidad": 3,
+      "tiempoHoras": 9
+    },
+    {
+      "nombre": "falla de equipos de comunicación (amplificador, spl, sp2,sp3)",
+      "cantidad": 2,
+      "tiempoHoras": 6
+    }
+  ],
+  "insight": "La principal causa raíz acumulada corresponde a fallas de equipos de comunicación del sistema leaky feeder."
+});
 }
 
 /****************************************************
@@ -294,28 +570,74 @@ function getSampleSlide15() {
 
 function getSampleSlide17() {
   return normalizeSlide17Data({
-    titulo: 'NEXA CERRO LINDO - FEBRERO 2026 - TOP SUMINISTROS GENERAL',
-    periodo: 'Febrero 2026',
-    logoText: 'COMM',
-
-    totalSuministros: 16521,
-
-    items: [
-      { nombre: 'ALIMENTADOR REF RNG-500 BECKER', cantidad: 9520, porcentaje: '57.62%', unidad: 'MT' },
-      { nombre: '1010662 CINTILLO AMARRACABLE 550 X 9 MM', cantidad: 4834, porcentaje: '29.26%', unidad: 'UN' },
-      { nombre: 'ALCAYATA BARRA CORRUGADA 3/8 DE 1/2*3"', cantidad: 1617, porcentaje: '9.79%', unidad: 'UN' },
-      { nombre: 'Cable TX6A 10GIG Shielded Copper Cable - F/UTP', cantidad: 160, porcentaje: '0.97%', unidad: 'MT' },
-      { nombre: 'FUENTE DE ALIMENTACIÓN BECKER VARIS', cantidad: 90, porcentaje: '0.54%', unidad: 'UN' },
-      { nombre: 'Perno tipo expansor 3/8x3x3/4', cantidad: 64, porcentaje: '0.39%', unidad: 'UN' },
-      { nombre: 'EMPALME RNG-SPL VARIS', cantidad: 52, porcentaje: '0.31%', unidad: 'UN' },
-      { nombre: 'BIFURCADOR BECKER V3SP100 3WAY RNG-SP2', cantidad: 47, porcentaje: '0.28%', unidad: 'UN' },
-      { nombre: 'TRAPO INDUSTRIAL', cantidad: 45, porcentaje: '0.27%', unidad: 'UN' },
-      { nombre: 'CINTA AISLANTE VINÍLICA TEMFLEX 1600', cantidad: 34, porcentaje: '0.21%', unidad: 'MT' }
-    ],
-
-    insight:
-      'El alimentador RNG-500 Becker concentra la mayor cantidad de suministros utilizados en el periodo.'
-  });
+  "titulo": "CERRO LINDO - ABRIL 2026 - SUMINISTROS GENERALES",
+  "periodo": "Abril 2026",
+  "logoText": "COMM",
+  "totalSuministros": 12995,
+  "items": [
+    {
+      "nombre": "ALIMENTADOR REF RNG-500 BECKER",
+      "cantidad": 6615,
+      "porcentaje": "50.90%",
+      "unidad": "MT"
+    },
+    {
+      "nombre": "1010662 CINTILLO AMARRACABLE 550 X 9 MM",
+      "cantidad": 2920,
+      "porcentaje": "22.47%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "ALCAYATA BARRA CORRUGADA 3/8 DE 1/2*3\"",
+      "cantidad": 1714,
+      "porcentaje": "13.19%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "Cable Radiante de 7/8 Pulgadas, 50 ohms",
+      "cantidad": 1500,
+      "porcentaje": "11.54%",
+      "unidad": "MT"
+    },
+    {
+      "nombre": "VHF TERMINATION UNIT RNG-TER",
+      "cantidad": 52,
+      "porcentaje": "0.40%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "BIFURCADOR BECKER V3SP100 3WAY RNG-SP2",
+      "cantidad": 44,
+      "porcentaje": "0.34%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "Cinta Aislante Vinilica TEMFLEX 1600 3/4¨X 18MTS Negro",
+      "cantidad": 36,
+      "porcentaje": "0.28%",
+      "unidad": "MT"
+    },
+    {
+      "nombre": "TRAPO INDUSTRIAL",
+      "cantidad": 34,
+      "porcentaje": "0.26%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "EMPALME RNG-SPL VARIS",
+      "cantidad": 32,
+      "porcentaje": "0.25%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "AMPLIFICADOR RNG- AMP. VARIS RNG-AMP",
+      "cantidad": 23,
+      "porcentaje": "0.18%",
+      "unidad": "UN"
+    }
+  ],
+  "insight": "El alimentador RNG-500 Becker concentra la mayor cantidad de suministros utilizados durante abril."
+});
 }
 
 /****************************************************
@@ -324,28 +646,74 @@ function getSampleSlide17() {
 
 function getSampleSlide18() {
   return normalizeSlide18Data({
-    titulo: 'NEXA CERRO LINDO - FEBRERO 2026 - SUMINISTROS EN REQUERIMIENTOS',
-    periodo: 'Febrero 2026',
-    logoText: 'COMM',
-
-    totalSuministrosRequerimientos: 14017,
-
-    items: [
-      { nombre: 'ALIMENTADOR REF RNG-500 BECKER', cantidad: 8550, porcentaje: '61.00%', unidad: 'MT' },
-      { nombre: '1010662 CINTILLO AMARRACABLE 550 X 9 MM', cantidad: 3593, porcentaje: '25.63%', unidad: 'UN' },
-      { nombre: 'ALCAYATA BARRA CORRUGADA 3/8 DE 1/2*3"', cantidad: 1447, porcentaje: '10.32%', unidad: 'UN' },
-      { nombre: 'Cable TX6A 10GIG Shielded Copper Cable - F/UTP', cantidad: 160, porcentaje: '1.14%', unidad: 'MT' },
-      { nombre: 'FUENTE DE ALIMENTACIÓN BECKER VARIS', cantidad: 84, porcentaje: '0.60%', unidad: 'UN' },
-      { nombre: 'Perno tipo expansor 3/8x3x3/4', cantidad: 56, porcentaje: '0.40%', unidad: 'UN' },
-      { nombre: 'TRAPO INDUSTRIAL', cantidad: 29, porcentaje: '0.21%', unidad: 'UN' },
-      { nombre: 'BIFURCADOR BECKER V3SP100 3WAY RNG-SP2', cantidad: 26, porcentaje: '0.19%', unidad: 'UN' },
-      { nombre: 'EMPALME RNG-SPL VARIS', cantidad: 23, porcentaje: '0.16%', unidad: 'UN' },
-      { nombre: 'CINTA AISLANTE VINÍLICA TEMFLEX 1600', cantidad: 16, porcentaje: '0.11%', unidad: 'MT' }
-    ],
-
-    insight:
-      'El alimentador RNG-500 Becker representa el principal suministro utilizado para atender requerimientos.'
-  });
+  "titulo": "CERRO LINDO - ABRIL 2026 - SUMINISTROS EN REQUERIMIENTOS",
+  "periodo": "Abril 2026",
+  "logoText": "COMM",
+  "totalSuministrosRequerimientos": 11195,
+  "items": [
+    {
+      "nombre": "ALIMENTADOR REF RNG-500 BECKER",
+      "cantidad": 5700,
+      "porcentaje": "50.92%",
+      "unidad": "MT"
+    },
+    {
+      "nombre": "1010662 CINTILLO AMARRACABLE 550 X 9 MM",
+      "cantidad": 2201,
+      "porcentaje": "19.66%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "ALCAYATA BARRA CORRUGADA 3/8 DE 1/2*3\"",
+      "cantidad": 1642,
+      "porcentaje": "14.67%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "Cable Radiante de 7/8 Pulgadas, 50 ohms",
+      "cantidad": 1500,
+      "porcentaje": "13.40%",
+      "unidad": "MT"
+    },
+    {
+      "nombre": "VHF TERMINATION UNIT RNG-TER",
+      "cantidad": 44,
+      "porcentaje": "0.39%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "TRAPO INDUSTRIAL",
+      "cantidad": 34,
+      "porcentaje": "0.30%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "BIFURCADOR BECKER V3SP100 3WAY RNG-SP2",
+      "cantidad": 22,
+      "porcentaje": "0.20%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "AMPLIFICADOR RNG- AMP. VARIS RNG-AMP",
+      "cantidad": 19,
+      "porcentaje": "0.17%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "EMPALME RNG-SPL VARIS",
+      "cantidad": 17,
+      "porcentaje": "0.15%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "Alcohol Isopropílico frasco de 1L",
+      "cantidad": 9,
+      "porcentaje": "0.08%",
+      "unidad": "UN"
+    }
+  ],
+  "insight": "El alimentador RNG-500 Becker representa el principal suministro utilizado para atender requerimientos durante abril."
+});
 }
 
 /****************************************************
@@ -354,28 +722,74 @@ function getSampleSlide18() {
 
 function getSampleSlide19() {
   return normalizeSlide19Data({
-    titulo: 'NEXA CERRO LINDO - FEBRERO 2026 - SUMINISTROS EN INCIDENTES',
-    periodo: 'Febrero 2026',
-    logoText: 'COMM',
-
-    totalSuministrosIncidentes: 2504,
-
-    items: [
-      { nombre: '1010662 CINTILLO AMARRACABLE 550 X 9 MM', cantidad: 1241, porcentaje: '49.56%', unidad: 'UN' },
-      { nombre: 'ALIMENTADOR REF RNG-500 BECKER', cantidad: 970, porcentaje: '38.74%', unidad: 'MT' },
-      { nombre: 'ALCAYATA BARRA CORRUGADA 3/8 DE 1/2*3"', cantidad: 170, porcentaje: '6.79%', unidad: 'UN' },
-      { nombre: 'EMPALME RNG-SPL VARIS', cantidad: 29, porcentaje: '1.16%', unidad: 'UN' },
-      { nombre: 'BIFURCADOR BECKER V3SP100 3WAY RNG-SP2', cantidad: 21, porcentaje: '0.84%', unidad: 'UN' },
-      { nombre: 'CINTA AISLANTE VINÍLICA TEMFLEX 1600', cantidad: 18, porcentaje: '0.72%', unidad: 'MT' },
-      { nombre: 'TRAPO INDUSTRIAL', cantidad: 16, porcentaje: '0.64%', unidad: 'UN' },
-      { nombre: 'AMPLIFICADOR RNG-AMP VARIS', cantidad: 12, porcentaje: '0.48%', unidad: 'UN' },
-      { nombre: 'Perno tipo expansor 3/8x3x3/4', cantidad: 8, porcentaje: '0.32%', unidad: 'UN' },
-      { nombre: 'FUENTE DE ALIMENTACIÓN BECKER VARIS', cantidad: 6, porcentaje: '0.24%', unidad: 'UN' }
-    ],
-
-    insight:
-      'Los cintillos amarrables y el alimentador RNG-500 Becker concentran el mayor consumo asociado a incidentes.'
-  });
+  "titulo": "CERRO LINDO - ABRIL 2026 - SUMINISTROS EN INCIDENTES",
+  "periodo": "Abril 2026",
+  "logoText": "COMM",
+  "totalSuministrosIncidentes": 1800,
+  "items": [
+    {
+      "nombre": "ALIMENTADOR REF RNG-500 BECKER",
+      "cantidad": 915,
+      "porcentaje": "50.83%",
+      "unidad": "MT"
+    },
+    {
+      "nombre": "1010662 CINTILLO AMARRACABLE 550 X 9 MM",
+      "cantidad": 719,
+      "porcentaje": "39.94%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "ALCAYATA BARRA CORRUGADA 3/8 DE 1/2*3\"",
+      "cantidad": 72,
+      "porcentaje": "4.00%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "Cinta Aislante Vinilica TEMFLEX 1600 3/4¨X 18MTS Negro",
+      "cantidad": 34,
+      "porcentaje": "1.89%",
+      "unidad": "MT"
+    },
+    {
+      "nombre": "BIFURCADOR BECKER V3SP100 3WAY RNG-SP2",
+      "cantidad": 22,
+      "porcentaje": "1.22%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "EMPALME RNG-SPL VARIS",
+      "cantidad": 15,
+      "porcentaje": "0.83%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "VHF TERMINATION UNIT RNG-TER",
+      "cantidad": 8,
+      "porcentaje": "0.44%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "LIMPIADOR DE CONTACTO 3 EN 1",
+      "cantidad": 6,
+      "porcentaje": "0.33%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "AMPLIFICADOR RNG- AMP. VARIS RNG-AMP",
+      "cantidad": 4,
+      "porcentaje": "0.22%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "Alcohol Isopropílico frasco de 1L",
+      "cantidad": 3,
+      "porcentaje": "0.17%",
+      "unidad": "UN"
+    }
+  ],
+  "insight": "El alimentador RNG-500 Becker y los cintillos amarrables concentran el mayor consumo asociado a incidentes durante abril."
+});
 }
 
 /****************************************************
@@ -434,7 +848,7 @@ function normalizeSlide10Data(body) {
   return {
     titulo:
       body.titulo ||
-      `ATENCIONES EN LA OPERACIÓN NEXA CERRO LINDO - ${body.periodo || 'PERIODO'}`,
+      `CERRO LINDO - ${body.periodo || 'PERIODO'} - ATENCIONES EN LA OPERACIÓN`,
 
     periodo: body.periodo || 'Periodo',
     logoText: body.logoText || 'COMM',
@@ -574,7 +988,7 @@ function normalizeSlide11Data(body) {
   return {
     titulo:
       body.titulo ||
-      `NEXA CERRO LINDO - ${body.periodo || 'Periodo'} - ATENCIONES POR TURNO Y EVOLUCIÓN MENSUAL`,
+      `CERRO LINDO - ${body.periodo || 'Periodo'} - ATENCIONES POR TURNO Y EVOLUCIÓN MENSUAL`,
 
     periodo: body.periodo || 'Periodo',
     logoText: body.logoText || 'COMM',
@@ -654,7 +1068,7 @@ function normalizeSlide12Data(body) {
   return {
     titulo:
       body.titulo ||
-      `NEXA Cerro Lindo - ${body.periodo || 'Periodo'} - Incidentes vs Requerimientos`,
+      `CERRO LINDO - ${body.periodo || 'Periodo'} - INCIDENTES VS REQUERIMIENTOS`,
 
     periodo: body.periodo || 'Periodo',
     logoText: body.logoText || 'COMM',
@@ -796,7 +1210,7 @@ function normalizeSlide13Data(body) {
   return {
     titulo:
       body.titulo ||
-      `NEXA Cerro Lindo - ${body.periodo || 'Periodo'} - Evolución de Requerimientos e Incidentes`,
+      `CERRO LINDO - ${body.periodo || 'Periodo'} - EVOLUCIÓN DE REQUERIMIENTOS E INCIDENTES`,
 
     periodo: body.periodo || 'Periodo',
     logoText: body.logoText || 'COMM',
@@ -859,7 +1273,7 @@ function normalizeSlide14Data(body) {
   return {
     titulo:
       body.titulo ||
-      `NEXA Cerro Lindo - ${body.periodo || 'Periodo'} - Top Requerimientos por Causa Raíz`,
+      `CERRO LINDO - ${body.periodo || 'Periodo'} - REQUERIMIENTOS`,
 
     periodo: body.periodo || 'Periodo',
     logoText: body.logoText || 'COMM',
@@ -921,7 +1335,7 @@ function normalizeSlide15Data(body) {
   return {
     titulo:
       body.titulo ||
-      `NEXA Cerro Lindo - ${body.periodo || 'Periodo'} - Top Incidentes por Causa Raíz`,
+      `CERRO LINDO - ${body.periodo || 'Periodo'} - INCIDENTES`,
 
     periodo: body.periodo || 'Periodo',
     logoText: body.logoText || 'COMM',
@@ -981,7 +1395,7 @@ function normalizeSlide17Data(body) {
   return {
     titulo:
       body.titulo ||
-      `NEXA Cerro Lindo - ${body.periodo || 'Periodo'} - Top Suministros General`,
+      `CERRO LINDO - ${body.periodo || 'Periodo'} - SUMINISTROS GENERALES`,
 
     periodo: body.periodo || 'Periodo',
     logoText: body.logoText || 'COMM',
@@ -1042,7 +1456,7 @@ function normalizeSlide18Data(body) {
   return {
     titulo:
       body.titulo ||
-      `NEXA Cerro Lindo - ${body.periodo || 'Periodo'} - Suministros en Requerimientos`,
+      `CERRO LINDO - ${body.periodo || 'Periodo'} - SUMINISTROS EN REQUERIMIENTOS`,
 
     periodo: body.periodo || 'Periodo',
     logoText: body.logoText || 'COMM',
@@ -1104,7 +1518,7 @@ function normalizeSlide19Data(body) {
   return {
     titulo:
       body.titulo ||
-      `NEXA Cerro Lindo - ${body.periodo || 'Periodo'} - Suministros en Incidentes`,
+      `CERRO LINDO - ${body.periodo || 'Periodo'} - SUMINISTROS EN INCIDENTES`,
 
     periodo: body.periodo || 'Periodo',
     logoText: body.logoText || 'COMM',

@@ -398,15 +398,17 @@
     dataMeses = [
       { mes: 'Dic-25', dia: 112, noche: 106, total: 218 },
       { mes: 'Ene-26', dia: 137, noche: 94, total: 231 },
-      { mes: 'Feb-26', dia: 201, noche: 151, total: 352 }
+      { mes: 'Feb-26', dia: 201, noche: 151, total: 352 },
+      { mes: 'Mar-26', dia: 168, noche: 114, total: 282 },
+      { mes: 'Abr-26', dia: 167, noche: 137, total: 304 }
     ];
   }
 
-  const periodoFinal = typeof periodo !== 'undefined' ? periodo : 'Febrero 2026';
+  const periodoFinal = typeof periodo !== 'undefined' ? periodo : 'DIC 2025 - ABR 2026';
 
   const tituloFinal = typeof titulo !== 'undefined'
     ? titulo
-    : `NEXA CERRO LINDO - ${periodoFinal} - ATENCIONES POR TURNO Y EVOLUCIÓN MENSUAL`;
+    : `CERRO LINDO - ${periodoFinal} - ATENCIONES POR TURNO Y EVOLUCIÓN MENSUAL`;
 
   const totalGeneral = num(
     typeof totalAtenciones !== 'undefined'
@@ -675,7 +677,7 @@
     </div>
 
     <div class="insight-box">
-      <div class="insight-icon">💡</div>
+      <div class="insight-icon">i</div>
 
       <div>
         <div class="insight-title">Insight Principal</div>

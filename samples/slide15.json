@@ -1,43 +1,60 @@
 {
-  "titulo": "NEXA CERRO LINDO - FEBRERO 2026 - TOP INCIDENTES POR CAUSA RAÍZ",
-  "periodo": "Febrero 2026",
-  "totalIncidentes": 136,
-  "totalTiempoHoras": 364,
+  "titulo": "CERRO LINDO - DIC 2025 - JUN 2026 - INCIDENTES",
+  "periodo": "DIC 2025 - JUN 2026",
+  "logoText": "COMM",
+  "totalIncidentes": 595,
+  "totalTiempoHoras": 1674,
   "items": [
-    [
-      "Daño de cable en trabajos de rehabilitación (leaky feeder)",
-      66,
-      171
-    ],
-    [
-      "Falla de equipos de comunicación (amplificador, SPL, SP2, SP3)",
-      40,
-      110
-    ],
-    [
-      "Daño de cable eléctrico de fuente",
-      19,
-      52
-    ],
-    [
-      "Daño de cable de fibra óptica",
-      6,
-      16
-    ],
-    [
-      "Daño de cable por equipo (Jumbo, Scoop, Volquete)",
-      3,
-      9
-    ],
-    [
-      "Cable roto por vehículo (leaky feeder)",
-      1,
-      3
-    ],
-    [
-      "Conectores en mal estado (leaky feeder)",
-      1,
-      3
-    ]
-  ]
+    {
+      "nombre": "Falla de equipos de comunicación (amplificador, spl, sp2,sp3)",
+      "cantidad": 192,
+      "tiempoHoras": 538
+    },
+    {
+      "nombre": "Daño de cable en trabajos de rehabilitacion(leaky feeder)",
+      "cantidad": 175,
+      "tiempoHoras": 484
+    },
+    {
+      "nombre": "Daño de cable electrico de fuente",
+      "cantidad": 102,
+      "tiempoHoras": 292
+    },
+    {
+      "nombre": "Daño de cable por equipo(Jumbo, Scoop, Volquete)",
+      "cantidad": 78,
+      "tiempoHoras": 231
+    },
+    {
+      "nombre": "Puntos de conexión sulfatados",
+      "cantidad": 16,
+      "tiempoHoras": 40
+    },
+    {
+      "nombre": "Daño de cable de fibra optica",
+      "cantidad": 15,
+      "tiempoHoras": 39
+    },
+    {
+      "nombre": "Daño de cable UTP (Camara)",
+      "cantidad": 7,
+      "tiempoHoras": 20
+    },
+    {
+      "nombre": "Cable Roto por Vehículo (Leaky Feeder)",
+      "cantidad": 4,
+      "tiempoHoras": 12
+    },
+    {
+      "nombre": "Conectores en mal estado (Leaky Feeder)",
+      "cantidad": 3,
+      "tiempoHoras": 9
+    },
+    {
+      "nombre": "falla de equipos de comunicación (amplificador, spl, sp2,sp3)",
+      "cantidad": 2,
+      "tiempoHoras": 6
+    }
+  ],
+  "insight": "La principal causa raíz acumulada corresponde a fallas de equipos de comunicación del sistema leaky feeder."
 }

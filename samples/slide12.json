@@ -1,13 +1,21 @@
 {
-  "titulo": "NEXA CERRO LINDO - FEBRERO 2026 - INCIDENTES VS REQUERIMIENTOS",
-  "periodo": "Febrero 2026",
-  "incidentes": 136,
-  "requerimientos": 216,
-  "totalAtenciones": 352,
+  "titulo": "CERRO LINDO - ABRIL 2026 - INCIDENTES VS REQUERIMIENTOS",
+  "periodo": "Abril 2026",
+  "logoText": "COMM",
+  "totalAtenciones": 305,
+  "incidentes": 77,
+  "requerimientos": 228,
+  "brecha": 151,
+  "pctIncidentes": "25.25%",
+  "pctRequerimientos": "74.75%",
   "tabla": {
     "up": "CERRO LINDO",
-    "incidentes": 136,
-    "requerimientos": 216,
-    "total": 352
-  }
+    "incidentes": 77,
+    "requerimientos": 228,
+    "total": 305,
+    "pctIncidentes": "25.25%",
+    "pctRequerimientos": "74.75%",
+    "pctTotal": "100%"
+  },
+  "insight": "Los requerimientos representan la mayor proporción de atenciones de abril, por encima de los incidentes reportados."
 }

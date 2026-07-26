@@ -1,48 +1,60 @@
 {
-  "titulo": "NEXA CERRO LINDO - FEBRERO 2026 - TOP REQUERIMIENTOS POR CAUSA RAÍZ",
-  "periodo": "Febrero 2026",
-  "totalRequerimientos": 214,
-  "totalTiempoHoras": 565,
+  "titulo": "CERRO LINDO - DIC 2025 - JUN 2026 - REQUERIMIENTOS",
+  "periodo": "DIC 2025 - JUN 2026",
+  "logoText": "COMM",
+  "totalRequerimientos": 1291,
+  "totalTiempoHoras": 3721,
   "items": [
-    [
-      "Instalación Nueva (leaky feeder)",
-      74,
-      194
-    ],
-    [
-      "Reubicación de cable (leaky feeder)",
-      62,
-      163
-    ],
-    [
-      "Mantenimiento Programado del sistema (leaky feeder)",
-      39,
-      112
-    ],
-    [
-      "Estandarización de Cable (leaky feeder)",
-      23,
-      56
-    ],
-    [
-      "Instalación Nueva (energía)",
-      7,
-      17
-    ],
-    [
-      "Mantenimiento Programado (cámaras)",
-      4,
-      8
-    ],
-    [
-      "Instalación Nueva (fibra óptica)",
-      3,
-      9
-    ],
-    [
-      "Mantenimiento Programado (gabinete)",
-      2,
-      6
-    ]
-  ]
+    {
+      "nombre": "Mantenimiento Programado del sistema (leaky feeder)",
+      "cantidad": 499,
+      "tiempoHoras": 1472
+    },
+    {
+      "nombre": "Instalación Nueva (leaky feeder)",
+      "cantidad": 320,
+      "tiempoHoras": 912
+    },
+    {
+      "nombre": "Reubicacion de cable (leaky feeder)",
+      "cantidad": 245,
+      "tiempoHoras": 698
+    },
+    {
+      "nombre": "Estandarización de Cable (leaky feeder)",
+      "cantidad": 71,
+      "tiempoHoras": 199
+    },
+    {
+      "nombre": "Instalación Nueva (FIBRA OPTICA)",
+      "cantidad": 50,
+      "tiempoHoras": 150
+    },
+    {
+      "nombre": "INSTALACION NUEVA (ENERGIA)",
+      "cantidad": 31,
+      "tiempoHoras": 84
+    },
+    {
+      "nombre": "Mantenimiento Programado (camaras)",
+      "cantidad": 18,
+      "tiempoHoras": 46
+    },
+    {
+      "nombre": "MANTENIMIENTO PROGRAMADO (GABINETE)",
+      "cantidad": 17,
+      "tiempoHoras": 46
+    },
+    {
+      "nombre": "Instalación Nueva (RAD)",
+      "cantidad": 10,
+      "tiempoHoras": 30
+    },
+    {
+      "nombre": "Instalación Nueva (Fibra Optica)",
+      "cantidad": 8,
+      "tiempoHoras": 24
+    }
+  ],
+  "insight": "La principal causa raíz acumulada corresponde al mantenimiento programado del sistema leaky feeder."
 }

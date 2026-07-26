@@ -1,67 +1,69 @@
 {
-  "titulo": "NEXA CERRO LINDO - FEBRERO 2026 - SUMINISTROS EN REQUERIMIENTOS",
-  "periodo": "Febrero 2026",
-  "totalSuministrosRequerimientos": 14017,
+  "titulo": "CERRO LINDO - ABRIL 2026 - SUMINISTROS EN REQUERIMIENTOS",
+  "periodo": "Abril 2026",
+  "logoText": "COMM",
+  "totalSuministrosRequerimientos": 11195,
   "items": [
-    [
-      "ALIMENTADOR REF RNG-500 BECKER",
-      8550,
-      "61.00%",
-      "MT"
-    ],
-    [
-      "1010662 CINTILLO AMARRACABLE 550 X 9 MM",
-      3593,
-      "25.63%",
-      "UN"
-    ],
-    [
-      "ALCAYATA BARRA CORRUGADA 3/8 DE 1/2*3\"",
-      1447,
-      "10.32%",
-      "UN"
-    ],
-    [
-      "Cable TX6A 10GIG Shielded Copper Cable - F/UTP",
-      160,
-      "1.14%",
-      "MT"
-    ],
-    [
-      "FUENTE DE ALIMENTACIÓN BECKER VARIS",
-      84,
-      "0.60%",
-      "UN"
-    ],
-    [
-      "Perno tipo expansor 3/8x3x3/4",
-      56,
-      "0.40%",
-      "UN"
-    ],
-    [
-      "TRAPO INDUSTRIAL",
-      29,
-      "0.21%",
-      "UN"
-    ],
-    [
-      "BIFURCADOR BECKER V3SP100 3WAY RNG-SP2",
-      26,
-      "0.19%",
-      "UN"
-    ],
-    [
-      "EMPALME RNG-SPL VARIS",
-      23,
-      "0.16%",
-      "UN"
-    ],
-    [
-      "CINTA AISLANTE VINÍLICA TEMFLEX 1600",
-      16,
-      "0.11%",
-      "MT"
-    ]
-  ]
+    {
+      "nombre": "ALIMENTADOR REF RNG-500 BECKER",
+      "cantidad": 5700,
+      "porcentaje": "50.92%",
+      "unidad": "MT"
+    },
+    {
+      "nombre": "1010662 CINTILLO AMARRACABLE 550 X 9 MM",
+      "cantidad": 2201,
+      "porcentaje": "19.66%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "ALCAYATA BARRA CORRUGADA 3/8 DE 1/2*3\"",
+      "cantidad": 1642,
+      "porcentaje": "14.67%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "Cable Radiante de 7/8 Pulgadas, 50 ohms",
+      "cantidad": 1500,
+      "porcentaje": "13.40%",
+      "unidad": "MT"
+    },
+    {
+      "nombre": "VHF TERMINATION UNIT RNG-TER",
+      "cantidad": 44,
+      "porcentaje": "0.39%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "TRAPO INDUSTRIAL",
+      "cantidad": 34,
+      "porcentaje": "0.30%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "BIFURCADOR BECKER V3SP100 3WAY RNG-SP2",
+      "cantidad": 22,
+      "porcentaje": "0.20%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "AMPLIFICADOR RNG- AMP. VARIS RNG-AMP",
+      "cantidad": 19,
+      "porcentaje": "0.17%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "EMPALME RNG-SPL VARIS",
+      "cantidad": 17,
+      "porcentaje": "0.15%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "Alcohol Isopropílico frasco de 1L",
+      "cantidad": 9,
+      "porcentaje": "0.08%",
+      "unidad": "UN"
+    }
+  ],
+  "insight": "El alimentador RNG-500 Becker representa el principal suministro utilizado para atender requerimientos durante abril."
 }

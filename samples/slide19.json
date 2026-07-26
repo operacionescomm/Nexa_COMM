@@ -1,67 +1,69 @@
 {
-  "titulo": "NEXA CERRO LINDO - FEBRERO 2026 - SUMINISTROS EN INCIDENTES",
-  "periodo": "Febrero 2026",
-  "totalSuministrosIncidentes": 2504,
+  "titulo": "CERRO LINDO - ABRIL 2026 - SUMINISTROS EN INCIDENTES",
+  "periodo": "Abril 2026",
+  "logoText": "COMM",
+  "totalSuministrosIncidentes": 1800,
   "items": [
-    [
-      "1010662 CINTILLO AMARRACABLE 550 X 9 MM",
-      1241,
-      "49.56%",
-      "UN"
-    ],
-    [
-      "ALIMENTADOR REF RNG-500 BECKER",
-      970,
-      "38.74%",
-      "MT"
-    ],
-    [
-      "ALCAYATA BARRA CORRUGADA 3/8 DE 1/2*3\"",
-      170,
-      "6.79%",
-      "UN"
-    ],
-    [
-      "EMPALME RNG-SPL VARIS",
-      29,
-      "1.16%",
-      "UN"
-    ],
-    [
-      "BIFURCADOR BECKER V3SP100 3WAY RNG-SP2",
-      21,
-      "0.84%",
-      "UN"
-    ],
-    [
-      "CINTA AISLANTE VINÍLICA TEMFLEX 1600",
-      18,
-      "0.72%",
-      "MT"
-    ],
-    [
-      "TRAPO INDUSTRIAL",
-      16,
-      "0.64%",
-      "UN"
-    ],
-    [
-      "AMPLIFICADOR RNG-AMP VARIS",
-      12,
-      "0.48%",
-      "UN"
-    ],
-    [
-      "Perno tipo expansor 3/8x3x3/4",
-      8,
-      "0.32%",
-      "UN"
-    ],
-    [
-      "FUENTE DE ALIMENTACIÓN BECKER VARIS",
-      6,
-      "0.24%",
-      "UN"
-    ]
-  ]
+    {
+      "nombre": "ALIMENTADOR REF RNG-500 BECKER",
+      "cantidad": 915,
+      "porcentaje": "50.83%",
+      "unidad": "MT"
+    },
+    {
+      "nombre": "1010662 CINTILLO AMARRACABLE 550 X 9 MM",
+      "cantidad": 719,
+      "porcentaje": "39.94%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "ALCAYATA BARRA CORRUGADA 3/8 DE 1/2*3\"",
+      "cantidad": 72,
+      "porcentaje": "4.00%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "Cinta Aislante Vinilica TEMFLEX 1600 3/4¨X 18MTS Negro",
+      "cantidad": 34,
+      "porcentaje": "1.89%",
+      "unidad": "MT"
+    },
+    {
+      "nombre": "BIFURCADOR BECKER V3SP100 3WAY RNG-SP2",
+      "cantidad": 22,
+      "porcentaje": "1.22%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "EMPALME RNG-SPL VARIS",
+      "cantidad": 15,
+      "porcentaje": "0.83%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "VHF TERMINATION UNIT RNG-TER",
+      "cantidad": 8,
+      "porcentaje": "0.44%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "LIMPIADOR DE CONTACTO 3 EN 1",
+      "cantidad": 6,
+      "porcentaje": "0.33%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "AMPLIFICADOR RNG- AMP. VARIS RNG-AMP",
+      "cantidad": 4,
+      "porcentaje": "0.22%",
+      "unidad": "UN"
+    },
+    {
+      "nombre": "Alcohol Isopropílico frasco de 1L",
+      "cantidad": 3,
+      "porcentaje": "0.17%",
+      "unidad": "UN"
+    }
+  ],
+  "insight": "El alimentador RNG-500 Becker y los cintillos amarrables concentran el mayor consumo asociado a incidentes durante abril."
 }

@@ -323,7 +323,7 @@
 <%
   const safeTitulo = typeof titulo !== 'undefined'
     ? titulo
-    : 'NEXA Cerro Lindo - Marzo 2026 - Suministros en Requerimientos';
+    : 'CERRO LINDO - ABRIL 2026 - SUMINISTROS EN REQUERIMIENTOS';
 
   const rawItems = typeof items !== 'undefined' && Array.isArray(items)
     ? items
@@ -392,13 +392,17 @@
   const top2Cantidad = processedItems.slice(0, 2).reduce((a, b) => a + b.cantidad, 0);
   const top3Cantidad = processedItems.slice(0, 3).reduce((a, b) => a + b.cantidad, 0);
 
-  const pctTop2Valor = typeof porcentajeTop2 !== 'undefined'
-    ? porcentajeTop2
-    : pct(top2Cantidad, totalSum);
+  const pctTop2Valor = typeof pctTop2 !== 'undefined'
+    ? pctTop2
+    : typeof porcentajeTop2 !== 'undefined'
+      ? porcentajeTop2
+      : pct(top2Cantidad, totalSum);
 
-  const pctTop3Valor = typeof porcentajeTop3 !== 'undefined'
-    ? porcentajeTop3
-    : pct(top3Cantidad, totalSum);
+  const pctTop3Valor = typeof pctTop3 !== 'undefined'
+    ? pctTop3
+    : typeof porcentajeTop3 !== 'undefined'
+      ? porcentajeTop3
+      : pct(top3Cantidad, totalSum);
 
   const maxCantRaw = Math.max(...processedItems.map(i => i.cantidad), 1);
   const maxCant = Math.ceil(maxCantRaw / 10) * 10;
@@ -603,7 +607,7 @@
     <div class="bottom-icon">▦</div>
 
     <div class="bottom-text-wrap">
-      <div class="bottom-title">Suministros usados en requerimientos</div>
+      <div class="bottom-title">Suministros en Requerimientos</div>
       <div class="bottom-text">
         <p><%= conclusion1 %></p>
         <p><%= conclusion2 %></p>

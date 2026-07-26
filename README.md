@@ -1,4 +1,4 @@
-# Motor visual NEXA Cerro Lindo
+# Motor visual Cerro Lindo
 
 Este repositorio adapta el motor visual usado en Yauricocha para generar las imágenes del informe de **NEXA – Unidad Minera Cerro Lindo**.
 
@@ -53,3 +53,16 @@ El Apps Script del Google Sheet deberá:
 4. Copiar la plantilla `PLANTILLA_PARA_NEXA`.
 5. Insertar cada PNG en las diapositivas 10–15 y 17–19.
 6. Guardar la copia en la carpeta `INFORMES NEXA`.
+
+
+## Versión visual corregida
+
+La versión de prueba quedó configurada con:
+
+- Slides mensuales 10, 12, 17, 18 y 19: abril de 2026.
+- Slide 11: acumulado de diciembre de 2025 a abril de 2026.
+- Slide 13: siete periodos, de diciembre de 2025 a junio de 2026.
+- Slides 14 y 15: acumulado completo de diciembre de 2025 a junio de 2026.
+- Títulos simplificados a “CERRO LINDO”.
+- Íconos compatibles con Chromium/Render.
+- Encabezados de detalle más cortos para evitar desbordes.

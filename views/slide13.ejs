@@ -378,11 +378,11 @@
     return (num(v) / num(t)).toFixed(1);
   }
 
-  const periodoFinal = typeof periodo !== 'undefined' ? periodo : 'Abril 2026';
+  const periodoFinal = typeof periodo !== 'undefined' ? periodo : 'DIC 2025 - JUN 2026';
 
   const tituloFinal = typeof titulo !== 'undefined'
     ? titulo
-    : `NEXA Cerro Lindo - ${periodoFinal} - Evolución de Requerimientos e Incidentes`;
+    : `CERRO LINDO - ${periodoFinal} - EVOLUCIÓN DE REQUERIMIENTOS E INCIDENTES`;
 
   const rawMeses = typeof meses !== 'undefined' && Array.isArray(meses)
     ? meses
@@ -396,16 +396,13 @@
 
   if (!dataMeses.length) {
     dataMeses = [
-      { mes: 'Jul-25', incidentes: 81, requerimientos: 176 },
-      { mes: 'Ago-25', incidentes: 77, requerimientos: 180 },
-      { mes: 'Set-25', incidentes: 81, requerimientos: 190 },
-      { mes: 'Oct-25', incidentes: 100, requerimientos: 178 },
-      { mes: 'Nov-25', incidentes: 90, requerimientos: 224 },
-      { mes: 'Dic-25', incidentes: 73, requerimientos: 216 },
-      { mes: 'Ene-26', incidentes: 47, requerimientos: 82 },
-      { mes: 'Feb-26', incidentes: 50, requerimientos: 90 },
-      { mes: 'Mar-26', incidentes: 53, requerimientos: 113 },
-      { mes: 'Abr-26', incidentes: 39, requerimientos: 120 }
+      { mes: 'Dic-25', incidentes: 103, requerimientos: 115 },
+      { mes: 'Ene-26', incidentes: 108, requerimientos: 130 },
+      { mes: 'Feb-26', incidentes: 136, requerimientos: 216 },
+      { mes: 'Mar-26', incidentes: 67, requerimientos: 215 },
+      { mes: 'Abr-26', incidentes: 77, requerimientos: 228 },
+      { mes: 'May-26', incidentes: 45, requerimientos: 199 },
+      { mes: 'Jun-26', incidentes: 59, requerimientos: 188 }
     ];
   }
 
@@ -639,12 +636,15 @@
           const x = chartX + i * gap;
           const yInc = yLine(item.incidentes);
           const yReq = yLine(item.requerimientos);
+          const seriesCercanas = Math.abs(yInc - yReq) < 28;
+          const yIncLabel = seriesCercanas ? yInc + 22 : yInc - 15;
+          const yReqLabel = yReq - 15;
         %>
           <circle cx="<%= x %>" cy="<%= yInc %>" r="6" fill="#0b43bf"></circle>
           <circle cx="<%= x %>" cy="<%= yReq %>" r="6" fill="#ff5f00"></circle>
 
-          <text x="<%= x %>" y="<%= yInc - 15 %>" text-anchor="middle" class="line-label-blue"><%= item.incidentes %></text>
-          <text x="<%= x %>" y="<%= yReq - 15 %>" text-anchor="middle" class="line-label-orange"><%= item.requerimientos %></text>
+          <text x="<%= x %>" y="<%= yIncLabel %>" text-anchor="middle" class="line-label-blue"><%= item.incidentes %></text>
+          <text x="<%= x %>" y="<%= yReqLabel %>" text-anchor="middle" class="line-label-orange"><%= item.requerimientos %></text>
 
           <text x="<%= x %>" y="425" text-anchor="middle" class="month-label"><%= item.mes %></text>
         <% }) %>
@@ -659,7 +659,7 @@
     <div class="bottom-title">Resultado Operativo</div>
     <div class="bottom-divider"></div>
     <div class="bottom-text"><%= insightFinal %></div>
-    <div class="bottom-graphic">✅</div>
+    <div class="bottom-graphic">✓</div>
   </div>
 </div>
 </body>

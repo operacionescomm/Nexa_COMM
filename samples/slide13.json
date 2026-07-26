@@ -1,6 +1,13 @@
 {
-  "titulo": "NEXA CERRO LINDO - FEBRERO 2026 - EVOLUCIÓN DE REQUERIMIENTOS E INCIDENTES",
-  "periodo": "Febrero 2026",
+  "titulo": "CERRO LINDO - DIC 2025 - JUN 2026 - EVOLUCIÓN DE REQUERIMIENTOS E INCIDENTES",
+  "periodo": "DIC 2025 - JUN 2026",
+  "logoText": "COMM",
+  "totalRequerimientos": 1291,
+  "totalIncidentes": 595,
+  "totalAtenciones": 1886,
+  "participacionRequerimientos": "68.45%",
+  "participacionIncidentes": "31.55%",
+  "promedioMensualTotal": "269.4",
   "meses": [
     {
       "mes": "Dic-25",
@@ -16,6 +23,27 @@
       "mes": "Feb-26",
       "incidentes": 136,
       "requerimientos": 216
+    },
+    {
+      "mes": "Mar-26",
+      "incidentes": 67,
+      "requerimientos": 215
+    },
+    {
+      "mes": "Abr-26",
+      "incidentes": 77,
+      "requerimientos": 228
+    },
+    {
+      "mes": "May-26",
+      "incidentes": 45,
+      "requerimientos": 199
+    },
+    {
+      "mes": "Jun-26",
+      "incidentes": 59,
+      "requerimientos": 188
     }
-  ]
+  ],
+  "insight": "La evolución de los siete periodos muestra predominio de requerimientos y una reducción del volumen total después del pico registrado en febrero."
 }

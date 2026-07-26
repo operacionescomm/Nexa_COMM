@@ -1,6 +1,7 @@
 {
-  "titulo": "NEXA CERRO LINDO - FEBRERO 2026 - ATENCIONES POR TURNO Y EVOLUCIÓN MENSUAL",
-  "periodo": "Febrero 2026",
+  "titulo": "CERRO LINDO - DIC 2025 - ABR 2026 - ATENCIONES POR TURNO Y EVOLUCIÓN MENSUAL",
+  "periodo": "DIC 2025 - ABR 2026",
+  "logoText": "COMM",
   "meses": [
     {
       "mes": "Dic-25",
@@ -19,6 +20,25 @@
       "dia": 201,
       "noche": 151,
       "total": 352
+    },
+    {
+      "mes": "Mar-26",
+      "dia": 168,
+      "noche": 114,
+      "total": 282
+    },
+    {
+      "mes": "Abr-26",
+      "dia": 167,
+      "noche": 137,
+      "total": 304
     }
-  ]
+  ],
+  "totalAtenciones": 1387,
+  "totalDiaGlobal": 785,
+  "totalNocheGlobal": 602,
+  "totalMesActualValue": 304,
+  "participacionDia": "56.6%",
+  "participacionNoche": "43.4%",
+  "insight": "El turno día concentra la mayor participación de las atenciones acumuladas entre diciembre de 2025 y abril de 2026."
 }
