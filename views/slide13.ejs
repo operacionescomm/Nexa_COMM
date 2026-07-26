@@ -382,7 +382,7 @@
 
   const tituloFinal = typeof titulo !== 'undefined'
     ? titulo
-    : `CERRO LINDO - ${periodoFinal} - EVOLUCIÓN DE REQUERIMIENTOS E INCIDENTES`;
+    : `CERRO LINDO - ${periodoFinal} - EVOLUCIÓN DE<br>REQUERIMIENTOS E INCIDENTES`;
 
   const rawMeses = typeof meses !== 'undefined' && Array.isArray(meses)
     ? meses
@@ -483,7 +483,7 @@
   <div class="header">
     <div class="title-wrap">
       <div class="title-bar"></div>
-      <div class="title"><%= tituloFinal %></div>
+      <div class="title"><%- tituloFinal %></div>
     </div>
 
     <div class="logo">
