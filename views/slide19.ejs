@@ -362,8 +362,8 @@
   }
 
   const totalSum = num(
-    typeof totalUsos !== 'undefined'
-      ? totalUsos
+    typeof totalSuministrosIncidentes !== 'undefined'
+      ? totalSuministrosIncidentes
       : typeof totalSuministros !== 'undefined'
         ? totalSuministros
         : rawItems.reduce((a, b) => a + num(b.cantidad), 0)
@@ -371,17 +371,9 @@
 
   const processedItems = rawItems.slice(0, 10).map(item => ({
     nombre: item.nombre || item.descripcion || item.insumo || item.suministro || '',
-    cantidad: num(item.cantidad), // frecuencia de uso
-    consumo: num(item.consumo),
-    unidad: item.unidad || '',
+    cantidad: num(item.cantidad),
     porcentaje: item.porcentaje || pct(item.cantidad, totalSum)
   }));
-
-  const totalTipos = num(
-    typeof totalTiposSuministro !== 'undefined'
-      ? totalTiposSuministro
-      : rawItems.length
-  );
 
   let acumulado = 0;
 
@@ -429,7 +421,7 @@
       : `El suministro de mayor uso en incidentes corresponde a ${top1.nombre}.`;
 
   const conclusion2 =
-    `El Top 3 representa ${pctTop3Valor} del total de usos de suministros en incidentes.`;
+    `El Top 3 representa ${pctTop3Valor} del total de suministros en incidentes.`;
 %>
 
 <div class="slide">
@@ -448,7 +440,7 @@
     <div class="kpi-card">
       <div class="kpi-icon bg-blue">▦</div>
       <div>
-        <div class="kpi-label">Total de Usos</div>
+        <div class="kpi-label">Total Suministros</div>
         <div class="kpi-value"><%= totalSum %></div>
       </div>
     </div>
@@ -456,15 +448,15 @@
     <div class="kpi-card">
       <div class="kpi-icon bg-teal">#</div>
       <div>
-        <div class="kpi-label">Tipos de Suministro</div>
-        <div class="kpi-value teal"><%= totalTipos %></div>
+        <div class="kpi-label">Cantidad de Ítems</div>
+        <div class="kpi-value teal"><%= processedItems.length %></div>
       </div>
     </div>
 
     <div class="kpi-card">
       <div class="kpi-icon bg-orange">▥</div>
       <div>
-        <div class="kpi-label">Suministro más frecuente</div>
+        <div class="kpi-label">Principal Suministro</div>
         <div class="kpi-value orange"><%= top1.cantidad %></div>
         <div class="kpi-sub"><%= top1.nombre %></div>
       </div>
@@ -513,9 +505,9 @@
             <text x="45" y="<%= y + 5 %>" class="axis-label"><%= val %></text>
           <% }) %>
 
-          <text x="20" y="175" transform="rotate(-90 20,175)" class="axis-title">USOS</text>
+          <text x="20" y="175" transform="rotate(-90 20,175)" class="axis-title">CANTIDAD</text>
 
-          <text x="190" y="24" class="legend-text">Frecuencia de uso</text>
+          <text x="190" y="24" class="legend-text">Cantidad (Suministros)</text>
           <rect x="158" y="12" width="24" height="14" fill="#1248bf"></rect>
 
           <line x1="470" y1="19" x2="520" y2="19" stroke="#ff6200" stroke-width="4"></line>
@@ -585,9 +577,8 @@
             <tr>
               <th style="width: 40px;">#</th>
               <th>Suministro</th>
-              <th style="width: 72px;">Usos</th>
-              <th style="width: 105px;">Consumo</th>
-              <th style="width: 80px;">%</th>
+              <th style="width: 105px;">Cantidad</th>
+              <th style="width: 90px;">%</th>
             </tr>
           </thead>
 
@@ -597,7 +588,6 @@
                 <td class="rank"><%= i + 1 %></td>
                 <td class="name-cell"><%= item.nombre %></td>
                 <td class="center"><%= item.cantidad %></td>
-                <td class="center"><%= item.consumo %> <%= item.unidad %></td>
                 <td class="center"><%= item.porcentaje %></td>
               </tr>
             <% }) %>
@@ -605,7 +595,6 @@
             <tr class="total-row">
               <td colspan="2">TOTAL GENERAL</td>
               <td class="center"><%= totalSum %></td>
-              <td class="center">—</td>
               <td class="center">100.00%</td>
             </tr>
           </tbody>
