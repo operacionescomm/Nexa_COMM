@@ -1401,8 +1401,6 @@ function normalizeSlide17Data(body) {
     logoText: body.logoText || 'COMM',
 
     totalSuministros,
-    totalUsos: toNumber(body.totalUsos ?? totalSuministros),
-    totalTiposSuministro: toNumber(body.totalTiposSuministro ?? rawItems.length),
     totalTop10,
 
     pctTop2: body.pctTop2 || calcPct(top2Cantidad, totalSuministros),
@@ -1465,8 +1463,6 @@ function normalizeSlide18Data(body) {
 
     totalSuministrosRequerimientos,
     totalSuministros: totalSuministrosRequerimientos,
-    totalUsos: toNumber(body.totalUsos ?? totalSuministrosRequerimientos),
-    totalTiposSuministro: toNumber(body.totalTiposSuministro ?? rawItems.length),
     totalTop10,
 
     pctTop2: body.pctTop2 || calcPct(top2Cantidad, totalSuministrosRequerimientos),
@@ -1529,8 +1525,6 @@ function normalizeSlide19Data(body) {
 
     totalSuministrosIncidentes,
     totalSuministros: totalSuministrosIncidentes,
-    totalUsos: toNumber(body.totalUsos ?? totalSuministrosIncidentes),
-    totalTiposSuministro: toNumber(body.totalTiposSuministro ?? rawItems.length),
     totalTop10,
 
     pctTop2: body.pctTop2 || calcPct(top2Cantidad, totalSuministrosIncidentes),
@@ -1596,8 +1590,7 @@ function normalizeSuministroItems(rawItems) {
           nombre: String(item[0] || '').trim(),
           cantidad: toNumber(item[1]),
           porcentaje: formatPercentage(item[2]),
-          unidad: String(item[3] || '-').trim(),
-          consumo: toNumber(item[4] ?? 0)
+          unidad: String(item[3] || '-').trim()
         };
       }
 
@@ -1611,7 +1604,6 @@ function normalizeSuministroItems(rawItems) {
         ).trim(),
 
         cantidad: toNumber(item.cantidad ?? item.total ?? item.valor ?? 0),
-        consumo: toNumber(item.consumo ?? item.consumoFisico ?? 0),
         porcentaje: formatPercentage(item.porcentaje ?? item.participacion ?? item.pct),
 
         unidad: String(
