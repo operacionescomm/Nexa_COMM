@@ -585,7 +585,9 @@
             <tr>
               <th style="width: 40px;">#</th>
               <th>Suministro</th>
-              <th style="width: 72px;">Usos</th>\n              <th style="width: 105px;">Consumo</th>\n              <th style="width: 80px;">%</th>
+              <th style="width: 72px;">Usos</th>
+              <th style="width: 105px;">Consumo</th>
+              <th style="width: 80px;">%</th>
             </tr>
           </thead>
 
@@ -594,12 +596,17 @@
               <tr>
                 <td class="rank"><%= i + 1 %></td>
                 <td class="name-cell"><%= item.nombre %></td>
-                <td class="center"><%= item.cantidad %></td>\n                <td class="center"><%= item.consumo %> <%= item.unidad %></td>\n                <td class="center"><%= item.porcentaje %></td>
+                <td class="center"><%= item.cantidad %></td>
+                <td class="center"><%= item.consumo %> <%= item.unidad %></td>
+                <td class="center"><%= item.porcentaje %></td>
               </tr>
             <% }) %>
 
             <tr class="total-row">
-              <td colspan="2">TOTAL GENERAL</td>\n              <td class="center"><%= totalSum %></td>\n              <td class="center">—</td>\n              <td class="center">100.00%</td>
+              <td colspan="2">TOTAL GENERAL</td>
+              <td class="center"><%= totalSum %></td>
+              <td class="center">—</td>
+              <td class="center">100.00%</td>
             </tr>
           </tbody>
         </table>
